@@ -6,7 +6,7 @@ A modern, responsive **Expense Tracker** web application built with **React + Vi
 
 ## ✨ Live Demo
 
-> Deploy on Vercel or Netlify (see [Deployment](#-deployment) below)
+> Deploy on Vercel (see [Deployment](#-deployment) below)
 
 ---
 
@@ -80,7 +80,7 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:5173](http://localhost:5173) in your browser.
+Then open https://expense-tracker-createdby-kanakbari.vercel.app/ in your browser.
 
 ### Build for Production
 
@@ -89,31 +89,6 @@ npm run build
 ```
 
 The output will be in the `dist/` folder, ready to be deployed.
-
----
-
-## 🌐 Deployment
-
-### Deploy on Vercel
-
-1. Push your project to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click **"Add New → Project"**.
-4. Import your GitHub repository.
-5. Vercel will auto-detect Vite. Click **"Deploy"**.
-6. ✅ Done! Your app is live.
-
-### Deploy on Netlify
-
-1. Push your project to a GitHub repository.
-2. Go to [netlify.com](https://netlify.com) and sign in.
-3. Click **"Add new site → Import an existing project"**.
-4. Connect your GitHub repo.
-5. Set the following:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-6. Click **"Deploy site"**.
-7. ✅ Done! Your app is live.
 
 ---
 
